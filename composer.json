@@ -1,0 +1,10 @@
+{
+  "name": "maqden/sail-schedule-queue",
+  "description": "Sail configuration to run Schedule commands and queues on Laravel Sail",
+  "authors": [
+    {
+      "name": "Renato Dehnhardt",
+      "email": "renatotkd@gmail.com"
+    }
+  ]
+}
