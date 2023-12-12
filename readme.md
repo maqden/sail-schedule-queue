@@ -16,7 +16,7 @@ This context files it's the same of `laravel/sail` package, just the `supervisor
 ```
     laravel.test:
         build:
-            context: ./docker/runtimes/8.3
+            context: ./vendor/maqden/sail-schedule-queue/runtimes/8.3
             dockerfile: Dockerfile
             args:
                 WWWGROUP: '${WWWGROUP}'
