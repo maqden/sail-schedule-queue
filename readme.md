@@ -4,6 +4,11 @@ This package was created for a personal usage, if you want to use it, feel free.
 
 How to use it:
 
+First:
+```
+composer require maqden/sail-schedule-queue --dev
+```
+
 in your `docker-compose.yml` file, change the `context` value from `context: ./vendor/laravel/sail/runtimes/8.3` to `context: ./vendor/maqden/sail-schedule-queue/runtimes/8.3` or your PHP version
 
 This context files it's the same of `laravel/sail` package, just the `supervisord.conf` it's different.
